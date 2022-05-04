@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		367EF6DA28200075001E8841 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 367EF6D928200075001E8841 /* main.cpp */; };
+		367EF6F828200095001E8841 /* DrawMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 367EF6E028200095001E8841 /* DrawMap.cpp */; };
+		367EF6F928200095001E8841 /* Pacman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 367EF6E828200095001E8841 /* Pacman.cpp */; };
+		367EF6FA28200095001E8841 /* DrawText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 367EF6E928200095001E8841 /* DrawText.cpp */; };
+		367EF6FB28200095001E8841 /* Ghost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 367EF6EA28200095001E8841 /* Ghost.cpp */; };
+		367EF6FC28200095001E8841 /* GhostManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 367EF6F428200095001E8841 /* GhostManager.cpp */; };
+		367EF6FE28200095001E8841 /* ConvertSketch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 367EF6F628200095001E8841 /* ConvertSketch.cpp */; };
+		367EF6FF28200095001E8841 /* MapCollision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 367EF6F728200095001E8841 /* MapCollision.cpp */; };
+		367EF710282002F4001E8841 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 367EF70F282002F4001E8841 /* Main.cpp */; };
+		367EF7442822E846001E8841 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 367EF704282000F8001E8841 /* sfml-audio.framework */; };
+		367EF7472822E847001E8841 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 367EF703282000F8001E8841 /* sfml-graphics.framework */; };
+		367EF7492822E849001E8841 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 367EF702282000F8001E8841 /* sfml-network.framework */; };
+		367EF74B2822E84A001E8841 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 367EF705282000F8001E8841 /* sfml-system.framework */; };
+		367EF74D2822E84B001E8841 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 367EF701282000F8001E8841 /* sfml-window.framework */; };
+		367EF74F2822E84C001E8841 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 367EF706282000F8001E8841 /* SFML.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +37,34 @@
 
 /* Begin PBXFileReference section */
 		367EF6D628200075001E8841 /* pacman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pacman; sourceTree = BUILT_PRODUCTS_DIR; };
-		367EF6D928200075001E8841 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		367EF6E028200095001E8841 /* DrawMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawMap.cpp; sourceTree = "<group>"; };
+		367EF6E328200095001E8841 /* Ghost16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ghost16.png; sourceTree = "<group>"; };
+		367EF6E428200095001E8841 /* PacmanDeath16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PacmanDeath16.png; sourceTree = "<group>"; };
+		367EF6E528200095001E8841 /* Pacman16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pacman16.png; sourceTree = "<group>"; };
+		367EF6E628200095001E8841 /* Font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Font.png; sourceTree = "<group>"; };
+		367EF6E728200095001E8841 /* Map16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map16.png; sourceTree = "<group>"; };
+		367EF6E828200095001E8841 /* Pacman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pacman.cpp; sourceTree = "<group>"; };
+		367EF6E928200095001E8841 /* DrawText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawText.cpp; sourceTree = "<group>"; };
+		367EF6EA28200095001E8841 /* Ghost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ghost.cpp; sourceTree = "<group>"; };
+		367EF6EC28200095001E8841 /* Global.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Global.hpp; sourceTree = "<group>"; };
+		367EF6ED28200095001E8841 /* MapCollision.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MapCollision.hpp; sourceTree = "<group>"; };
+		367EF6EE28200095001E8841 /* DrawText.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DrawText.hpp; sourceTree = "<group>"; };
+		367EF6EF28200095001E8841 /* Ghost.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ghost.hpp; sourceTree = "<group>"; };
+		367EF6F028200095001E8841 /* DrawMap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DrawMap.hpp; sourceTree = "<group>"; };
+		367EF6F128200095001E8841 /* ConvertSketch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConvertSketch.hpp; sourceTree = "<group>"; };
+		367EF6F228200095001E8841 /* GhostManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GhostManager.hpp; sourceTree = "<group>"; };
+		367EF6F328200095001E8841 /* Pacman.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Pacman.hpp; sourceTree = "<group>"; };
+		367EF6F428200095001E8841 /* GhostManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GhostManager.cpp; sourceTree = "<group>"; };
+		367EF6F628200095001E8841 /* ConvertSketch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConvertSketch.cpp; sourceTree = "<group>"; };
+		367EF6F728200095001E8841 /* MapCollision.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapCollision.cpp; sourceTree = "<group>"; };
+		367EF701282000F8001E8841 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "../../../../../../Library/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
+		367EF702282000F8001E8841 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../../../../../Library/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
+		367EF703282000F8001E8841 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../../../../../Library/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+		367EF704282000F8001E8841 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../../../../../Library/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
+		367EF705282000F8001E8841 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../../../../../Library/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		367EF706282000F8001E8841 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = ../../../../../../Library/Frameworks/SFML.framework; sourceTree = "<group>"; };
+		367EF70D28200190001E8841 /* pacman.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pacman.entitlements; sourceTree = "<group>"; };
+		367EF70F282002F4001E8841 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +72,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				367EF74F2822E84C001E8841 /* SFML.framework in Frameworks */,
+				367EF7492822E849001E8841 /* sfml-network.framework in Frameworks */,
+				367EF7442822E846001E8841 /* sfml-audio.framework in Frameworks */,
+				367EF74D2822E84B001E8841 /* sfml-window.framework in Frameworks */,
+				367EF74B2822E84A001E8841 /* sfml-system.framework in Frameworks */,
+				367EF7472822E847001E8841 /* sfml-graphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +89,7 @@
 			children = (
 				367EF6D828200075001E8841 /* pacman */,
 				367EF6D728200075001E8841 /* Products */,
+				367EF700282000F8001E8841 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +104,67 @@
 		367EF6D828200075001E8841 /* pacman */ = {
 			isa = PBXGroup;
 			children = (
-				367EF6D928200075001E8841 /* main.cpp */,
+				367EF70D28200190001E8841 /* pacman.entitlements */,
+				367EF70F282002F4001E8841 /* Main.cpp */,
+				367EF6F628200095001E8841 /* ConvertSketch.cpp */,
+				367EF6E028200095001E8841 /* DrawMap.cpp */,
+				367EF6E928200095001E8841 /* DrawText.cpp */,
+				367EF6EA28200095001E8841 /* Ghost.cpp */,
+				367EF6F428200095001E8841 /* GhostManager.cpp */,
+				367EF6F728200095001E8841 /* MapCollision.cpp */,
+				367EF6E828200095001E8841 /* Pacman.cpp */,
+				367EF6EB28200095001E8841 /* Headers */,
+				367EF6E128200095001E8841 /* Resources */,
 			);
 			path = pacman;
+			sourceTree = "<group>";
+		};
+		367EF6E128200095001E8841 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				367EF6E228200095001E8841 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		367EF6E228200095001E8841 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				367EF6E328200095001E8841 /* Ghost16.png */,
+				367EF6E428200095001E8841 /* PacmanDeath16.png */,
+				367EF6E528200095001E8841 /* Pacman16.png */,
+				367EF6E628200095001E8841 /* Font.png */,
+				367EF6E728200095001E8841 /* Map16.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		367EF6EB28200095001E8841 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				367EF6EC28200095001E8841 /* Global.hpp */,
+				367EF6ED28200095001E8841 /* MapCollision.hpp */,
+				367EF6EE28200095001E8841 /* DrawText.hpp */,
+				367EF6EF28200095001E8841 /* Ghost.hpp */,
+				367EF6F028200095001E8841 /* DrawMap.hpp */,
+				367EF6F128200095001E8841 /* ConvertSketch.hpp */,
+				367EF6F228200095001E8841 /* GhostManager.hpp */,
+				367EF6F328200095001E8841 /* Pacman.hpp */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		367EF700282000F8001E8841 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				367EF704282000F8001E8841 /* sfml-audio.framework */,
+				367EF703282000F8001E8841 /* sfml-graphics.framework */,
+				367EF702282000F8001E8841 /* sfml-network.framework */,
+				367EF705282000F8001E8841 /* sfml-system.framework */,
+				367EF701282000F8001E8841 /* sfml-window.framework */,
+				367EF706282000F8001E8841 /* SFML.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				367EF6DA28200075001E8841 /* main.cpp in Sources */,
+				367EF710282002F4001E8841 /* Main.cpp in Sources */,
+				367EF6FA28200095001E8841 /* DrawText.cpp in Sources */,
+				367EF6FB28200095001E8841 /* Ghost.cpp in Sources */,
+				367EF6F828200095001E8841 /* DrawMap.cpp in Sources */,
+				367EF6FE28200095001E8841 /* ConvertSketch.cpp in Sources */,
+				367EF6F928200095001E8841 /* Pacman.cpp in Sources */,
+				367EF6FF28200095001E8841 /* MapCollision.cpp in Sources */,
+				367EF6FC28200095001E8841 /* GhostManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +350,16 @@
 		367EF6DE28200075001E8841 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = pacman/pacman.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 238638W3AM;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = "\"arm64\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pacman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,9 +367,16 @@
 		367EF6DF28200075001E8841 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = pacman/pacman.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 238638W3AM;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = "\"arm64\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pacman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
