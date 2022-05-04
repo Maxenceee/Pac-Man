@@ -1,3 +1,3 @@
 # Pac-Man
 
-##SFML simple pac-man
+## SFML simple pac-man
